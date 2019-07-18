@@ -19,13 +19,8 @@ class Echarts extends Controller{
         return $this->fetch('bar');
     }
     
-<<<<<<< HEAD
     public function pie(){
         return $this->fetch('pie');
-=======
-    public function map(){
-        return $this->map('map');
->>>>>>> 06c6b792e80e93ff910964b4c743af76d946e939
     }
              
     
